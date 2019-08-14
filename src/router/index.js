@@ -9,7 +9,6 @@ const manage = r => require.ensure([], () => r(require('@/page/manage')), 'manag
 const coding = r => require.ensure([], () => r(require('@/page/coding')), 'coding');
 const drag = r => require.ensure([], () => r(require('@/page/drag')), 'drag');
 const scale = r => require.ensure([], () => r(require('@/page/scale')), 'scale');
-const positionList = r => require.ensure([], () => r(require('@/page/positionList')), 'position_list');
 
 const routes = [
 	{
@@ -28,7 +27,7 @@ const routes = [
 		},
 		{
 			path: '/position_list',
-			component: positionList,
+			component: coding,
 			meta: ['定位组件demo', '定位点分布'],
 		},
 		{
