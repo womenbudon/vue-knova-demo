@@ -7,7 +7,8 @@
 						<el-menu-item index="scale">缩放</el-menu-item>
 						<el-menu-item index="position_list">定位点分布</el-menu-item>
 						<el-menu-item index="position_tooltip">定位点弹窗</el-menu-item>
-						<el-menu-item index="draw_fence">绘制围栏</el-menu-item>
+						<el-menu-item index="draw_fence">绘制正方形围栏</el-menu-item>
+						<el-menu-item index="draw_polyan">绘制多边形围栏</el-menu-item>
 				</el-menu>
 			</el-col>
 			<el-col :span="20" style="height: 100%;overflow: auto;">
