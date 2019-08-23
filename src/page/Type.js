@@ -10,7 +10,8 @@ export const PATHSTYLE = {
 export const VERTEXSTYLE = {
 	fillStyle: 'rgb(255,255,255)',
 	strokeStyle: 'green',
-	lineWidth: 3,
+	strokeWidth: 1,
+	radius: 4,
 }
 
 export const DRAWING_POINT = 'point'; // 鼠标点模式
